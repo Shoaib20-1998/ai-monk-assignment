@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Nested Tags Tree Frontend UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application frontend UI for a Nested Tags Tree, implemented using React.js.
 
-## Available Scripts
 
-In the project directory, you can run:
+![Screenshot (2941)](https://github.com/Shoaib20-1998/ai-monk-assignment/assets/112754545/3e444334-1dc0-4563-9408-61bdc1cf8b86)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Render a nested Tags tree with collapsible elements.
+- Edit the contents of each Tag's "data" property using text input fields.
+- Edit Tag names by clicking on the header and typing a new name.
+- Collapsible Tags with ">" or "v" buttons to toggle visibility of children and data.
+- Add new child Tags to a parent Tag using the "Add Child" button.
+- Export the current Tags hierarchy and data as a JSON structure.
+- Bonus: Deployed using Vercel [Live Demo](#).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+## How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Collapse/Expand Tags**: Click on the "v" or ">" button to collapse or expand a Tag's children and data.
 
-### `npm run build`
+2. **Edit "data" Property**: Modify the "data" property of each Tag using the text input field.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Edit Tag Names**: Click on a Tag's name to edit its name using the text input field.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Add Child Tags**: Click "Add Child" to create a new child Tag under a parent Tag.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Export Tags**: Click "Export" to get the JSON structure of the current Tags hierarchy.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
